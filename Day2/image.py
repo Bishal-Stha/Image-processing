@@ -14,6 +14,8 @@ cv2.imshow("Blurred Image", blurred_image)
 
 # Save the grayscale image
 cv2.imwrite("grayscale_image.jpg", gray_image)
+print(gray_image)
+print(blurred_image)
 
 # Wait for a key press and close windows
 cv2.waitKey(0)
